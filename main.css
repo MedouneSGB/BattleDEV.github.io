@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:wght@400;700&display=swap');
+body {
+    font-family: 'Advent Pro';
+    font-size: 25px;
+}
+
+#logo {
+    float: left;
+    color: white;
+    text-decoration: none;
+}
+
+#logo:hover {
+    text-shadow: 0px 0px 20px white;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 16px 32px;
+    overflow: hidden;
+    background-color: #489196;
+    font-weight: bold;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: center;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: white;
+    color: #489196;
+    box-shadow: 0px 0px 10px white;
+}
+
+#buttpart {
+    padding: 16px 32px;
+    background-color: #489196;
+    color: white;
+    border-radius: 12px;
+    border: 0;
+    font-size: 18px;
+    box-shadow: 0px 0px 7px #489196;
+}
+
+#buttpart:hover {
+    box-shadow: 0px 0px 20px #489196;
+}
+
+img {
+    border-radius: 90%;
+    border: 2px solid black;
+}
+
+#container {
+    width: 100%;
+    text-align: center;
+    color: white;
+    line-height: 6px;
+}
+
+#left {
+    margin-left: 40px;
+    float: left;
+    width: 25%;
+    height: 160px;
+    background-color: #489196;
+    box-shadow: 0px 0px 10px #489196;
+}
+
+#left:hover {
+    transform: translateY(-7px);
+    box-shadow: 0px 0px 20px #489196;
+}
+
+#center {
+    display: inline-block;
+    margin: 0 auto;
+    width: 25%;
+    height: 160px;
+    background-color: #489196;
+    box-shadow: 0px 0px 10px #489196;
+}
+
+#center:hover {
+    transform: translateY(-7px);
+    box-shadow: 0px 0px 20px #489196;
+}
+
+#right {
+    margin-right: 40px;
+    float: right;
+    width: 25%;
+    height: 160px;
+    background-color: #489196;
+    box-shadow: 0px 0px 10px #489196;
+}
+
+#right:hover {
+    transform: translateY(-7px);
+    box-shadow: 0px 0px 20px #489196;
+}
+
+#container img {
+    margin-top: -20px;
+}
